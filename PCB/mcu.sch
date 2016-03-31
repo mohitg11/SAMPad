@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:SAMPad
-LIBS:SAMPad-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -602,7 +601,7 @@ F 3 "" H 6250 7050 60  0000 C CNN
 $EndComp
 Text Notes 5700 6900 0    59   ~ 0
 HWBE Jumper
-Text Label 5250 3800 2    60   ~ 0
+Text Label 5450 3900 2    60   ~ 0
 VUSB
 $Comp
 L VSS #PWR016
@@ -1366,13 +1365,6 @@ Wire Wire Line
 	12250 7600 12050 7600
 Connection ~ 12250 7600
 Wire Wire Line
-	5250 3800 5450 3800
-Wire Wire Line
-	5450 3900 5350 3900
-Wire Wire Line
-	5350 3900 5350 3800
-Connection ~ 5350 3800
-Wire Wire Line
 	4550 10000 4900 10000
 Wire Wire Line
 	4900 10200 4900 10450
@@ -1515,4 +1507,5 @@ F 7 "Atmel" H 6600 4300 60  0001 C CNN "Vendor"
 $EndComp
 NoConn ~ 7900 6500
 NoConn ~ 7900 6400
+NoConn ~ 5450 3800
 $EndSCHEMATC

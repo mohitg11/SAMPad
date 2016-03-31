@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:SAMPad
-LIBS:SAMPad-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
