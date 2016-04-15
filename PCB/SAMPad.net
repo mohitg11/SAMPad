@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/MOZ/Documents/Keyboards/SAMPad/PCB/SAMPad.sch)
-    (date "3/31/2016 1:26:22 PM")
+    (date "4/6/2016 1:37:05 PM")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1460,7 +1460,7 @@
       (libsource (lib SAMPad) (part USB_CONN))
       (sheetpath (names /mcu/) (tstamps /549878F0/))
       (tstamp 56F9797B))
-    (comp (ref C19)
+    (comp (ref C6)
       (value 0.1uF)
       (footprint prettylib:SMD_0805)
       (fields
@@ -2006,7 +2006,7 @@
       (node (ref D1:3) (pin 2))
       (node (ref D1:2) (pin 2)))
     (net (code 46) (name 3V3)
-      (node (ref C19) (pin 1))
+      (node (ref C6) (pin 1))
       (node (ref C2) (pin 1))
       (node (ref RI6) (pin 2))
       (node (ref RI5) (pin 2))
@@ -2073,7 +2073,7 @@
       (node (ref C22) (pin 2))
       (node (ref LEDG4) (pin 3))
       (node (ref C23) (pin 2))
-      (node (ref C19) (pin 2))
+      (node (ref C6) (pin 2))
       (node (ref P1_2) (pin 5))
       (node (ref U5) (pin 2))
       (node (ref U1) (pin 43))

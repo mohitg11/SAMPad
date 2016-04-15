@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = 3/30/2016 10:30:41 PM
+Cmp-Mod V01 Created by PcbNew   date = 4/15/2016 10:58:53 AM
 
 BeginCmp
 TimeStamp = 56F81170
@@ -835,7 +835,7 @@ EndCmp
 BeginCmp
 TimeStamp = 56F8115E
 Path = /549878F0/56F82B2A
-Reference = C19;
+Reference = C6;
 ValeurCmp = 0.1uF;
 IdModule  = prettylib:SMD_0805;
 EndCmp

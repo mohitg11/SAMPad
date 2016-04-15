@@ -1,13 +1,14 @@
 EESchema Schematic File Version 2
 LIBS:SAMPad
+LIBS:SAMPad-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
 Title "SAMPad"
-Date "2016-03-30"
-Rev "Rev 0.1"
+Date "2016-04-15"
+Rev "Rev 0.2"
 Comp "MOZ"
 Comment1 ""
 Comment2 ""
@@ -1119,10 +1120,10 @@ F 3 "" H 5250 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L C C6
 U 1 1 56F82B2A
 P 5150 3500
-F 0 "C19" H 5200 3600 50  0000 L CNN
+F 0 "C6" H 5200 3600 50  0000 L CNN
 F 1 "0.1uF" H 5200 3400 50  0000 L CNN
 F 2 "prettylib:SMD_0805" V 5000 3500 50  0001 C CNN
 F 3 "" H 5150 3500 60  0001 C CNN
