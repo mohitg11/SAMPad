@@ -7,9 +7,9 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
 Title "SAMPad"
-Date "2016-04-15"
-Rev "Rev 0.2"
-Comp "MOZ"
+Date "2016-04-20"
+Rev "Rev 0.4"
+Comp "Mohit MOZ Garg"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -474,28 +474,6 @@ F 7 "Samsung" H 3300 7100 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR02
-U 1 1 56F55E72
-P 2450 6400
-F 0 "#PWR02" H 2450 6475 30  0001 C CNN
-F 1 "3V3" H 2450 6525 30  0000 C CNN
-F 2 "" H 2450 6400 60  0000 C CNN
-F 3 "" H 2450 6400 60  0000 C CNN
-	1    2450 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR03
-U 1 1 56F59585
-P 5050 9500
-F 0 "#PWR03" H 5050 9575 30  0001 C CNN
-F 1 "3V3" H 5050 9625 30  0000 C CNN
-F 2 "" H 5050 9500 60  0000 C CNN
-F 3 "" H 5050 9500 60  0000 C CNN
-	1    5050 9500
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED LEDI5
 U 1 1 56F7752C
 P 4250 9650
@@ -868,4 +846,26 @@ Wire Wire Line
 	3650 2600 1650 2600
 Wire Wire Line
 	3000 2200 4700 2200
+$Comp
+L +5V #PWR02
+U 1 1 5717F951
+P 2450 6400
+F 0 "#PWR02" H 2450 6490 20  0001 C CNN
+F 1 "+5V" H 2450 6490 30  0000 C CNN
+F 2 "" H 2450 6400 60  0000 C CNN
+F 3 "" H 2450 6400 60  0000 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 5717FC90
+P 5050 9500
+F 0 "#PWR03" H 5050 9590 20  0001 C CNN
+F 1 "+5V" H 5050 9590 30  0000 C CNN
+F 2 "" H 5050 9500 60  0000 C CNN
+F 3 "" H 5050 9500 60  0000 C CNN
+	1    5050 9500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

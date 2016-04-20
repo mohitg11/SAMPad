@@ -1,18 +1,10 @@
-Cmp-Mod V01 Created by PcbNew   date = 4/15/2016 10:58:53 AM
+Cmp-Mod V01 Created by PcbNew   date = 4/20/2016 10:20:00 PM
 
 BeginCmp
 TimeStamp = 56F81170
 Path = /54B2C0DD/57003988
 Reference = CLED1;
 ValeurCmp = 0.1 uF;
-IdModule  = prettylib:SMD_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F81146
-Path = /549878F0/56E604F6
-Reference = C15;
-ValeurCmp = 4.7uF;
 IdModule  = prettylib:SMD_0805;
 EndCmp
 
@@ -29,14 +21,6 @@ TimeStamp = 56F81613
 Path = /549878F0/56E6FA49
 Reference = U5;
 ValeurCmp = PAM2804;
-IdModule  = prettylib:SOT-23-5;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F8160A
-Path = /549878F0/56E8E954
-Reference = U4;
-ValeurCmp = AP3417C;
 IdModule  = prettylib:SOT-23-5;
 EndCmp
 
@@ -94,14 +78,6 @@ Path = /56C7340C
 Reference = STAB1;
 ValeurCmp = MISC;
 IdModule  = prettylib:MX_200;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F81430
-Path = /549878F0/5533596A
-Reference = S1;
-ValeurCmp = TAC_SWITCH;
-IdModule  = prettylib:TACT_5.2x5.2;
 EndCmp
 
 BeginCmp
@@ -209,22 +185,6 @@ IdModule  = prettylib:SMD_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = 56F813D4
-Path = /549878F0/56EA1A58
-Reference = R8;
-ValeurCmp = 100k;
-IdModule  = prettylib:SMD_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F813CE
-Path = /549878F0/56E9FBE8
-Reference = R7;
-ValeurCmp = 453k;
-IdModule  = prettylib:SMD_0805;
-EndCmp
-
-BeginCmp
 TimeStamp = 56F813BC
 Path = /549878F0/56C7D2F4
 Reference = R4;
@@ -254,22 +214,6 @@ Path = /549878F0/56DCBDB6
 Reference = P6;
 ValeurCmp = ISP6;
 IdModule  = prettylib:TC2030_BIG;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F81381
-Path = /549878F0/56F9797B
-Reference = P1_2;
-ValeurCmp = USB_CONN;
-IdModule  = prettylib:USB_Micro-B;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F8136C
-Path = /549878F0/56E086BA
-Reference = P1;
-ValeurCmp = USB_CONN;
-IdModule  = prettylib:USB_Micro-B;
 EndCmp
 
 BeginCmp
@@ -533,14 +477,6 @@ TimeStamp = 56F81251
 Path = /549878F0/56E8A9B7
 Reference = L2;
 ValeurCmp = 4.7uH;
-IdModule  = prettylib:Inductor_Bourn_4mmx4mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F8124B
-Path = /549878F0/56E92DA3
-Reference = L1;
-ValeurCmp = 2.2uH;
 IdModule  = prettylib:Inductor_Bourn_4mmx4mm;
 EndCmp
 
@@ -852,14 +788,6 @@ BeginCmp
 TimeStamp = 56F81152
 Path = /549878F0/56E8FD65
 Reference = C17;
-ValeurCmp = 10uF;
-IdModule  = prettylib:SMD_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F8114C
-Path = /549878F0/56E9FBF8
-Reference = C16;
 ValeurCmp = 10uF;
 IdModule  = prettylib:SMD_0805;
 EndCmp
@@ -1217,14 +1145,6 @@ IdModule  = prettylib:FID;
 EndCmp
 
 BeginCmp
-TimeStamp = 56FA7E5E
-Path = /549878F0/56DD72E0
-Reference = BZ1;
-ValeurCmp = BUZZER;
-IdModule  = prettylib:BUZZER_SMT;
-EndCmp
-
-BeginCmp
 TimeStamp = 56FA7E68
 Path = /549878F0/56DA78C1
 Reference = C8;
@@ -1273,14 +1193,6 @@ IdModule  = prettylib:SAMPad-Logo;
 EndCmp
 
 BeginCmp
-TimeStamp = 56F81465
-Path = /549878F0/56FA299D
-Reference = S2;
-ValeurCmp = ENCODER;
-IdModule  = prettylib:ENCODER_12MM;
-EndCmp
-
-BeginCmp
 TimeStamp = 56FC261A
 Path = /549878F0/56E28BD1
 Reference = P4;
@@ -1294,6 +1206,46 @@ Path = /549878F0/56FC2882
 Reference = P5;
 ValeurCmp = CONN_6;
 IdModule  = prettylib:Pin_Header_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F8136C
+Path = /549878F0/56E086BA
+Reference = P1;
+ValeurCmp = USB_CONN;
+IdModule  = prettylib:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F81381
+Path = /549878F0/56F9797B
+Reference = P1_2;
+ValeurCmp = USB_CONN;
+IdModule  = prettylib:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F81465
+Path = /549878F0/56FA299D
+Reference = S2;
+ValeurCmp = ENCODER;
+IdModule  = prettylib:ENCODER_12MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 56FA7E5E
+Path = /549878F0/56DD72E0
+Reference = BZ1;
+ValeurCmp = BUZZER;
+IdModule  = prettylib:BUZZER_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F81430
+Path = /549878F0/5533596A
+Reference = S1;
+ValeurCmp = TAC_SWITCH;
+IdModule  = prettylib:TACT_5.2x5.2;
 EndCmp
 
 EndListe
