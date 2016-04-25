@@ -523,21 +523,6 @@ F 7 "Samsung" H 12050 7400 60  0001 C CNN "Vendor"
 $EndComp
 Text Label 5250 7950 0    60   ~ 0
 VUSB
-$Comp
-L SCHOTTKY D1
-U 1 1 56DC890C
-P 8350 8450
-F 0 "D1" H 8350 8550 40  0000 C CNN
-F 1 "SCHOTTKY" H 8350 8350 40  0000 C CNN
-F 2 "prettylib:SOD123-DIODE" H 8350 8450 60  0001 C CNN
-F 3 "" H 8350 8450 60  0000 C CNN
-F 4 "DIODE SCHOTTKY 30V 1A MINI2" H 8350 8450 60  0001 C CNN "Description"
-F 5 "DB2X41100L" H 8350 8450 60  0001 C CNN "Product"
-F 6 "http://www.digikey.com/product-detail/en/panasonic-electronic-components/DB2X41100L/DB2X41100LCT-ND/3884387" H 8350 8450 60  0001 C CNN "URL"
-F 7 "Panasonic" H 8350 8450 60  0001 C CNN "Vendor"
-	1    8350 8450
-	1    0    0    -1  
-$EndComp
 Text Notes 5850 1650 0    118  ~ 24
 Microcontroller
 $Comp
@@ -966,7 +951,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 7950 6400 8450
 Wire Wire Line
-	6400 8450 8150 8450
+	6400 8450 8550 8450
 Wire Wire Line
 	5250 7950 5250 8250
 Wire Wire Line
