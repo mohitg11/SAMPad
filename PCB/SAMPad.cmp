@@ -1,4 +1,12 @@
-Cmp-Mod V01 Created by PcbNew   date = 4/20/2016 10:20:00 PM
+Cmp-Mod V01 Created by PcbNew   date = 4/26/2016 10:06:48 PM
+
+BeginCmp
+TimeStamp = 56F815B3
+Path = /56C7A6BF
+Reference = STAB6;
+ValeurCmp = MISC;
+IdModule  = prettylib:MX_200;
+EndCmp
 
 BeginCmp
 TimeStamp = 56F81170
@@ -30,14 +38,6 @@ Path = /549878F0/56C7D369
 Reference = U3;
 ValeurCmp = IP4234CZ6;
 IdModule  = prettylib:SOT457;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F815B3
-Path = /56C7A6BF
-Reference = STAB6;
-ValeurCmp = MISC;
-IdModule  = prettylib:MX_200;
 EndCmp
 
 BeginCmp
@@ -717,14 +717,6 @@ TimeStamp = 56F8118E
 Path = /549A1DBB
 Reference = D1:1;
 ValeurCmp = DIODE;
-IdModule  = prettylib:SOD123-DIODE;
-EndCmp
-
-BeginCmp
-TimeStamp = 56F81188
-Path = /549878F0/56DC890C
-Reference = D1;
-ValeurCmp = SCHOTTKY;
 IdModule  = prettylib:SOD123-DIODE;
 EndCmp
 
