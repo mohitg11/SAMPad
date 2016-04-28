@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = 4/26/2016 10:06:48 PM
+Cmp-Mod V01 Created by PcbNew   date = 4/27/2016 11:05:09 AM
 
 BeginCmp
 TimeStamp = 56F815B3
@@ -881,14 +881,6 @@ IdModule  = prettylib:INSW_LEDS_REG;
 EndCmp
 
 BeginCmp
-TimeStamp = 56F93292
-Path = /549878F0/56D9FDD4
-Reference = U1;
-ValeurCmp = ATMEGA32U4;
-IdModule  = prettylib:TQFP44;
-EndCmp
-
-BeginCmp
 TimeStamp = 56F814B2
 Path = /549A1E39
 Reference = S3:3;
@@ -1238,6 +1230,14 @@ Path = /549878F0/5533596A
 Reference = S1;
 ValeurCmp = TAC_SWITCH;
 IdModule  = prettylib:TACT_5.2x5.2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93292
+Path = /549878F0/56D9FDD4
+Reference = U1;
+ValeurCmp = ATMEGA32U4;
+IdModule  = prettylib:TQFP44;
 EndCmp
 
 EndListe
