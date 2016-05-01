@@ -7,7 +7,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 3
 Title "SAMPad"
-Date "2016-04-26"
+Date "2016-05-01"
 Rev "Rev 0.5"
 Comp "Mohit MOZ Garg"
 Comment1 ""

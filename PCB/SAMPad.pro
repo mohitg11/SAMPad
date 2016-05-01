@@ -1,4 +1,4 @@
-update=4/26/2016 7:56:15 PM
+update=5/1/2016 10:46:36 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,8 +20,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.304800000000
 BoardOutlineThickness=0.127000000000
 ModuleOutlineThickness=0.300000000000
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -30,6 +28,8 @@ version=1
 LibDir=lib
 [eeschema/libraries]
 LibName1=lib/SAMPad
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
